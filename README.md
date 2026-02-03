@@ -1,110 +1,84 @@
-# 📊 Ceded Reinsurance Analytics Platform (Demo)
 
-A professional **Streamlit-based demonstration platform** for **ceded reinsurance governance, controls, and analytics**, covering:
+# Ceded Reinsurance Governance Demo
 
-- Exposure & Credit Control (CEC)
-- Cash Pairing & Reconciliation
-- Consultant Copilot (Narratives & Q&A)
+An end-to-end demonstration platform for ceded reinsurance governance, exposure management, cash reconciliation, and executive reporting.
 
-This repository demonstrates how fragmented insurance data can be transformed into a **governed, auditable, and decision-ready analytics layer**.
-
-> ⚠️ All data in this repository is synthetic and for illustration only.
+This project showcases how insurers and reinsurers can build a single governed analytics layer above existing systems to improve transparency, control, and decision-making.
 
 ---
 
-## 🎯 Purpose
+## 🚀 Overview
 
-This demo is designed for:
+This demo includes three core modules:
 
-- Client presentations  
-- Internal capability demonstrations  
-- Proof-of-value / pilot discussions  
-- Consulting delivery accelerators  
+### 1. Exposure & Credit Control (CEC)
+- Portfolio exposure rollups
+- Counterparty concentration analysis
+- Credit limit monitoring
+- Stress testing and scenario analysis
+- Full audit and lineage tracking
 
-It shows how insurers and reinsurers can:
+### 2. Cash Pairing & Reconciliation
+- Automated cash-to-statement matching
+- Confidence scoring
+- Exception prioritization
+- Operational worklists
+- Exportable reconciliation outputs
 
-- Improve governance and transparency  
-- Reduce manual reconciliation  
-- Strengthen credit and exposure controls  
-- Generate executive-ready narratives  
+### 3. Consultant Copilot
+- Executive-ready narratives
+- Guided prompts
+- Evidence-backed explanations
+- Exportable memos and reports
+- Optional LLM integration
 
----
-
-## 🧩 Key Modules
-
-### 1️⃣ Exposure & Credit Control (CEC)
-- Unified portfolio exposure view  
-- Counterparty concentration analysis  
-- Credit utilization monitoring  
-- Stress testing  
-- Full audit trail  
-
-### 2️⃣ Cash Pairing & Reconciliation
-- Automated cash-to-statement matching  
-- Confidence scoring  
-- Exception queue  
-- Variance analysis  
-- Operational worklists  
-
-### 3️⃣ Consultant Copilot
-- Executive narrative generation  
-- Evidence-backed summaries  
-- Controlled Q&A  
-- Deterministic fallback mode  
+All modules operate on a shared, governed data foundation.
 
 ---
 
-## 📁 Repository Structure
+## 📁 Project Structure
 
 ```
-synpulse_demo/
+ceded-re-governance-demo/
 │
 ├── app.py
 ├── config/
 ├── data/
+│   ├── raw/
+│   └── processed/
 ├── pages/
 ├── services/
 ├── components/
 ├── models/
 ├── utils/
+├── scripts/
+├── README.md
+├── LICENSE
+└── requirements.txt
 ```
 
 ---
 
-## ⚙️ Requirements
+## ⚙️ Installation
+
+### Prerequisites
 
 - Python 3.9+
-- pip or conda
+- pip
+- Git
 - Virtual environment (recommended)
 
----
-
-## 🚀 Installation
-
-### 1. Clone Repository
+### Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ceded-re-analytics-demo.git
-cd ceded-re-analytics-demo
-```
+git clone https://github.com/stelladong-RA/ceded-re-governance-demo.git
+cd ceded-re-governance-demo
 
-### 2. Create Virtual Environment
-
-```bash
 python -m venv venv
-source venv/bin/activate
-```
+source venv/bin/activate   # macOS / Linux
+venv\Scripts\activate    # Windows
 
-### 3. Install Dependencies
-
-```bash
 pip install -r requirements.txt
-```
-
-If requirements.txt is missing:
-
-```bash
-pip install streamlit pandas numpy plotly pyyaml
 ```
 
 ---
@@ -115,7 +89,7 @@ pip install streamlit pandas numpy plotly pyyaml
 streamlit run app.py
 ```
 
-Open:
+Open in browser:
 
 http://localhost:8501
 
@@ -123,81 +97,55 @@ http://localhost:8501
 
 ## 📊 Demo Data
 
-Located in:
+Synthetic demo data only.
 
-```
+Location:
 data/raw/
-```
 
-Synthetic demo files:
-
-- pas.csv
-- claims.csv
-- placements.csv
-- cash.csv
-- statements.csv
-- counterparties.csv
-
-Regenerate:
-
-```bash
-python -m scripts.regenerate_raw_demo_data
-```
+No client data included.
 
 ---
 
-## 🔐 Copilot Configuration (Optional)
+## 🛡️ Governance
 
-Without key: fallback mode.
-
-With OpenAI:
-
-```bash
-export OPENAI_API_KEY="your_key"
-export LLM_PROVIDER="openai"
-export LLM_MODEL="gpt-4o-mini"
-```
+- Lineage tracking
+- Join validation
+- Completeness checks
+- Assumptions disclosure
+- Audit evidence
 
 ---
 
-## 🏛 Governance
+## 🤖 LLM Support
 
-Includes:
+Fallback mode by default.
 
-- Validation
-- Join checks
-- Lineage
-- Assumptions
-- Evidence packs
+Enable via:
+
+export OPENAI_API_KEY="key"
+
+services/llm_service.py
 
 ---
 
-## 📤 Exports
+## ☁️ Deployment
 
-- CSV
-- JSON
-- TXT
-
-For audit and reporting.
+Supports Streamlit Cloud.
 
 ---
 
 ## 📄 License
 
-MIT License
-
-Demo and consulting purposes only.
+MIT License.
 
 ---
 
-## 🤝 Contact
-- Reinsurance Analytics
-- Email: stella.dong@reinsuranceanalytics.io 
-- Email: contact@reinsuranceanalytics.io 
-- Website: https://www.reinsuranceanalytics.io
+## ⚠️ Disclaimer
+
+Demo only. Not production software.
 
 ---
 
-## ⭐ Value
+## 📬 Contact
 
-From spreadsheets → governed analytics.
+Maintained by Stella Dong.
