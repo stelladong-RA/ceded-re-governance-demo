@@ -1,151 +1,175 @@
-
 # Ceded Reinsurance Governance Demo
 
-An end-to-end demonstration platform for ceded reinsurance governance, exposure management, cash reconciliation, and executive reporting.
+An end-to-end demo platform for ceded reinsurance governance, exposure control, cash reconciliation, and executive reporting.
 
-This project showcases how insurers and reinsurers can build a single governed analytics layer above existing systems to improve transparency, control, and decision-making.
+This application demonstrates how governed data can be transformed into reliable, auditable, and decision-ready insights for management, operations, and risk teams.
 
 ---
 
-## 🚀 Overview
+## 🌐 Live Demo
 
-This demo includes three core modules:
+👉 https://stelladong-ra-ceded-re-governance-demo-app-yesahg.streamlit.app/
 
-### 1. Exposure & Credit Control (CEC)
-- Portfolio exposure rollups
+> The live demo runs on Streamlit Cloud using fully synthetic sample data.
+
+---
+
+## 🎯 Purpose
+
+This project showcases how insurers and reinsurers can:
+
+- Improve data governance and transparency
+- Monitor counterparty exposure and credit risk
+- Automate cash pairing and reconciliation
+- Generate executive-ready narratives
+- Maintain full auditability and lineage
+
+It is designed for client demonstrations, pilot programs, and proof-of-concept engagements.
+
+---
+
+## 🧩 Key Modules
+
+### 1. Ceded Exposure & Credit Control (CEC)
+
+- Consolidated exposure layer
 - Counterparty concentration analysis
 - Credit limit monitoring
-- Stress testing and scenario analysis
-- Full audit and lineage tracking
+- Stress testing scenarios
+- Evidence and audit trail
 
 ### 2. Cash Pairing & Reconciliation
-- Automated cash-to-statement matching
+
+- Automated matching engine
 - Confidence scoring
-- Exception prioritization
+- Exception management
+- Root-cause analysis
 - Operational worklists
-- Exportable reconciliation outputs
 
-### 3. Consultant Copilot
-- Executive-ready narratives
-- Guided prompts
-- Evidence-backed explanations
-- Exportable memos and reports
-- Optional LLM integration
+### 3. Consultant Copilot (Narratives + Q&A)
 
-All modules operate on a shared, governed data foundation.
+- Controlled prompt interface
+- Executive summary generation
+- Risk and action highlights
+- Evidence-backed outputs
+- Exportable reports
+
+---
+
+## 🏗️ Architecture Overview
+
+Raw Data Sources  
+↓  
+Canonicalization & Validation  
+↓  
+Governed Data Layer  
+↓  
+Analytics Engines  
+↓  
+Dashboards & Copilot  
+↓  
+Evidence Pack & Exports  
 
 ---
 
 ## 📁 Project Structure
 
 ```
-ceded-re-governance-demo/
+synpulse_demo/
 │
 ├── app.py
 ├── config/
 ├── data/
-│   ├── raw/
-│   └── processed/
 ├── pages/
 ├── services/
 ├── components/
 ├── models/
 ├── utils/
-├── scripts/
-├── README.md
-├── LICENSE
 └── requirements.txt
 ```
 
 ---
 
-## ⚙️ Installation
+## 🚀 Getting Started (Local Setup)
 
-### Prerequisites
-
-- Python 3.9+
-- pip
-- Git
-- Virtual environment (recommended)
-
-### Setup
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/stelladong-RA/ceded-re-governance-demo.git
 cd ceded-re-governance-demo
+```
 
+### 2. Create Virtual Environment
+
+```bash
 python -m venv venv
-source venv/bin/activate   # macOS / Linux
-venv\Scripts\activate    # Windows
+source venv/bin/activate
+```
 
+### 3. Install Dependencies
+
+```bash
 pip install -r requirements.txt
 ```
 
----
-
-## ▶️ Run the Application
+### 4. Run the App
 
 ```bash
 streamlit run app.py
 ```
 
-Open in browser:
+---
 
-http://localhost:8501
+## 📊 Data Policy
+
+- All datasets are synthetic
+- No production data included
+- For demo use only
 
 ---
 
-## 📊 Demo Data
+## 🔐 Security & Governance
 
-Synthetic demo data only.
-
-Location:
-data/raw/
-
-No client data included.
+- Data lineage
+- Validation rules
+- Deterministic fallback
+- Controlled AI usage
 
 ---
 
-## 🛡️ Governance
+## 🧠 Copilot Design
 
-- Lineage tracking
-- Join validation
-- Completeness checks
-- Assumptions disclosure
-- Audit evidence
+- Evidence-backed outputs
+- No black box
+- Human-in-the-loop
 
 ---
 
-## 🤖 LLM Support
+## 📤 Exports
 
-Fallback mode by default.
-
-Enable via:
-
-export OPENAI_API_KEY="key"
-
-services/llm_service.py
+- Executive summaries
+- Evidence packages
+- Audit tables
 
 ---
 
-## ☁️ Deployment
+## 🧪 Demo Flow
 
-Supports Streamlit Cloud.
-
----
-
-## 📄 License
-
-MIT License.
+1. CEC Dashboard
+2. Cash Pairing
+3. Copilot
+4. Evidence Review
 
 ---
 
-## ⚠️ Disclaimer
+## 📜 License
 
-Demo only. Not production software.
+MIT License
 
 ---
 
 ## 📬 Contact
 
-Maintained by Stella Dong.
+Contact via GitHub.
+
+© 2026 – Ceded Reinsurance Governance Demo
