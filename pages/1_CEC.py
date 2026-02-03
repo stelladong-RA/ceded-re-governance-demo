@@ -190,12 +190,9 @@ A **governed, executive-facing view** of ceded exposure that answers:
 
 It creates a **single logical layer above source systems** (PAS, placements, finance, etc.) so responses are **faster and more defensible**.
 
-### Why we need this (plain English)
+### Why we need this 
 Most organizations keep ceded exposure in **multiple systems and spreadsheets**. The same board question can produce different answers.
 CEC provides a consistent, repeatable view with **validation and traceability**.
-
-### One-sentence explanation for non-reinsurance audiences
-> “This shows, in one place, how much risk we’ve handed off to each external partner and whether we’re over-reliant on any of them.”
 
 ### What questions it answers
 - “Which counterparties are we most exposed to?”
@@ -203,7 +200,7 @@ CEC provides a consistent, repeatable view with **validation and traceability**.
 - “What breaks first if exposure increases by {shock}%?”
 - “Can we defend these numbers to audit / regulators?”
 
-### How to use this page (recommended demo flow)
+### How to use this page 
 1) Set **Exposure basis** and **Stress shock** in the sidebar  
 2) Review **Portfolio overview KPIs** (sanity + coverage)  
 3) Show **Concentration** (top counterparties)  
@@ -423,4 +420,4 @@ if show_raw:
 # -------------------------------------------------
 # Footer
 # -------------------------------------------------
-st.caption("Reinsurance Analytics × Synpulse — Ceded Re Governance Platform")
+st.caption("Reinsurance Analytics — Ceded Re Governance Platform")

@@ -66,7 +66,7 @@ This page demonstrates a repeatable narrative layer that is **fast, consistent, 
 - Output comes with an **Evidence Pack** showing what was used.
 - Runs safely in **deterministic mode** if no LLM key exists.
 
-### How to use this page (recommended demo flow)
+### How to use this page 
 1) Select a prompt (Section 1)  
 2) Generate a narrative (Section 2)  
 3) Review the Evidence Pack (Section 3)  
@@ -420,4 +420,4 @@ This demo is intentionally conservative: designed to be safe, repeatable, and au
 )
 
 st.success("One-sentence takeaway: Copilot converts governed metrics into consulting outputs — fast, consistent, and defensible.")
-st.caption("Reinsurance Analytics × Synpulse — Ceded Re Governance Platform")
+st.caption("Reinsurance Analytics — Ceded Re Governance Platform")

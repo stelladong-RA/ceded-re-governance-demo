@@ -126,7 +126,7 @@ In most organizations, ceded re information is fragmented across PAS, placements
 That creates slow close cycles, inconsistent answers, and audit friction.
 This demo shows how the same outcomes can be delivered **faster, repeatably, and defensibly**.
 
-### How to use this app (recommended meeting path)
+### How to use this app 
 1) **Demo 1 — CEC:** establish the portfolio “single source of truth” + governance  
 2) **Demo 2 — Cash Pairing:** show operational controls + exception workflow  
 3) **Demo 3 — Copilot:** show packaging into executive narrative + evidence pack
@@ -170,10 +170,10 @@ st.markdown("---")
 # -------------------------------------------------
 # Where to start (clear CTA)
 # -------------------------------------------------
-st.subheader("Where to start (recommended)")
+st.subheader("Where to start")
 st.markdown(
     """
-For the meeting, follow this sequence:
+Follow this sequence:
 
 1. **CEC — Exposure & Credit Control**  
    Establish portfolio totals, counterparty concentration, credit utilization, and stress sensitivities.
@@ -214,24 +214,6 @@ st.markdown("---")
 
 
 # -------------------------------------------------
-# Presenter notes (hidden in meeting mode)
-# -------------------------------------------------
-with st.expander("Presenter notes (internal)", expanded=not st.session_state.get("meeting_mode", True)):
-    st.markdown(
-        """
-**Suggested talk track (45–60 minutes):**
-- 0–5 min: Frame outcomes: governance + efficiency, above-systems posture
-- 5–25 min: Demo 1 (CEC): overview → concentration → utilization → stress → audit trail
-- 25–45 min: Demo 2 (Cash Pairing): coverage KPIs → exception queue → knobs/tolerances
-- 45–55 min: Demo 3 (Copilot): narrative + evidence pack → exports
-- 55–60 min: Close: pilot scope + data inputs + success metrics
-
-**Pacing tip:** Keep each demo crisp; let questions determine depth.
-"""
-    )
-
-
-# -------------------------------------------------
 # Footer
 # -------------------------------------------------
-st.caption("© Reinsurance Analytics × Synpulse | Demonstration Platform")
+st.caption("© Reinsurance Analytics | Demonstration Platform")

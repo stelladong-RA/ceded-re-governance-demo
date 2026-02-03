@@ -53,14 +53,14 @@ In many ceded re organizations, cash clearing becomes a **spreadsheet + email pr
 
 The result: slow close cycles, unreconciled balances, and exceptions that are hard to prioritize.
 
-### What questions it answers (plain English)
+### What questions it answers
 - “**Which payments are already cleared vs not cleared?**”
 - “**What is the reason an item is not cleared?**”
 - “**Which items should ops work first?** (highest risk / highest materiality)”
 - “**If we change tolerance / window, what happens?**”
 - “**Can I show an auditor the reason a match was made?**”
 
-### How to use this page (30 seconds)
+### How to use this page
 1) Adjust **amount tolerance** and **invoice date window**  
 2) Review **coverage KPIs** and match quality signals  
 3) Use the **exception queue** as the operational worklist  
@@ -401,4 +401,4 @@ st.success(
     "One-sentence takeaway: This demo turns cash reconciliation from a spreadsheet process into a governed, confidence-scored operational workflow."
 )
 
-st.caption("Reinsurance Analytics × Synpulse — Ceded Re Governance Platform")
+st.caption("Reinsurance Analytics — Ceded Re Governance Platform")
