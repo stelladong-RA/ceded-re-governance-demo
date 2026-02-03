@@ -1,0 +1,37 @@
+# settings.yaml
+
+# Application mode
+mode: demo          # demo | pilot | production
+
+# Versioning
+version: v1.0
+
+# Feature flags
+features:
+  enable_llm: true
+  enable_exports: true
+  enable_governance: true
+  enable_scenario: false
+
+# Demo behavior
+demo:
+  sample_size: 1000
+  allow_edits: false
+  auto_refresh: false
+
+# Branding
+branding:
+  primary_color: "#003366"
+  secondary_color: "#E6EEF5"
+  logo: "synpulse_logo.png"
+
+# Security (demo placeholders)
+security:
+  authentication: false
+  audit_logging: true
+
+# Data paths
+data:
+  raw: "data/raw"
+  processed: "data/processed"
+  cache: "data/cache"
