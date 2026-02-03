@@ -191,12 +191,10 @@ Demo and consulting purposes only.
 ---
 
 ## 🤝 Contact
-stella.dong@reinsuranceanalytics.io 
-contact@reinsuranceanalytics.io 
-
-Reinsurance Analytics
-Ceded Re Governance Platform
-https://www.reinsuranceanalytics.io
+- Reinsurance Analytics
+- Email: stella.dong@reinsuranceanalytics.io 
+- Email: contact@reinsuranceanalytics.io 
+- Website: https://www.reinsuranceanalytics.io
 
 ---
 
